@@ -1,0 +1,153 @@
+* {
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+  
+body {
+    background-color: #202124;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    height: 60px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+li {
+    text-align: center;
+    padding: 14px 12px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.small-text {
+    font-size: 0.9rem;
+}
+
+.menu-bg, .profile-pic {
+    width: 55px;
+    height: 55px;
+}
+
+.menu, .pfp {
+    width: 25px;
+}
+
+.menu-bg:hover {
+    background-color: rgba(191, 191, 191, 0.3);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.search-wrapper {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 300px;
+    padding-bottom: 20px;
+}
+
+form {
+    position: relative;
+}
+
+input {
+    width: 580px;
+    height: 45px;
+    padding-left: 50px;
+    font-size: 1.2rem;
+    border-radius: 45px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: transparent;
+}
+
+input:hover {
+    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.8);
+    background-color: 	#303134;
+    border-color: transparent;
+}
+
+input:focus {
+    outline: none;
+}
+
+.search {
+    width: 20px;
+    position: absolute;
+    top: 12px;
+    left: 20px;
+}
+
+.mic {
+    width: 15px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.buttons {
+    width: 350px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+button {
+    border: 1px solid transparent;
+    padding: 8px 12px;
+    background-color: rgba(48,49,52,255);
+    border-radius: 5px;
+}
+
+button:hover {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    background-color: rgba(23,23,23,255);
+}
+
+.panel {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.6);
+    padding: 15px;
+    
+}
